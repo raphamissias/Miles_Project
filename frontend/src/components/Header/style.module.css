@@ -1,0 +1,35 @@
+.header {
+    width: calc(100% - 32px);
+
+    display: flex;
+    justify-content: end;
+
+    position: fixed;
+    top: 0;
+    z-index: 50;
+
+    padding: 1rem;
+    margin-top: 1rem;
+
+    background-color: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+}
+
+.header.scrolled {
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(27, 27, 27, 0.5);
+    transition: all 0.4s ease;
+}
+
+.nav {
+    width: 100%;
+    max-width: 1610px;
+    transition: padding 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.6rem;
+}
