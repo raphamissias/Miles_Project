@@ -1,4 +1,4 @@
-import styles from "./PageHome.module.css";
+import styles from "./HomePage.module.css";
 import logo_solo from "../assets/icons/logo_solo.png";
 
 const PageHome = () => {
