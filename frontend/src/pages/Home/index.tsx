@@ -1,5 +1,5 @@
-import styles from "./HomePage.module.css";
-import logo_solo from "../assets/icons/logo_solo.png";
+import styles from "./style.module.css";
+import logo_solo from "../../assets/icons/logo_solo.png";
 
 const PageHome = () => {
   return (

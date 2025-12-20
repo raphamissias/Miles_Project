@@ -3,7 +3,8 @@ main {
   width: 100%;
   display: flex;
 
-  background-image: url(../assets/images/backgroundHorizontal.png);
+  background-image: url(../../assets/images/backgroundHorizontal2.jpg);
+  background-repeat: round;
 }
 
 section {
@@ -44,6 +45,10 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.secondary_section {
+  width: 100%;
 }
 
 .secondary_container {

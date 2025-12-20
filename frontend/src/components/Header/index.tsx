@@ -1,8 +1,10 @@
 import style from "./style.module.css";
 import logo_h from "../../assets/icons/logo-h.png";
-import Input from "../Input";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  //Lógica para verificar se o usuário está logado ou não
+
   return (
     <header>
       <nav>
@@ -10,21 +12,12 @@ const Header = () => {
           <img src={logo_h} alt="logo" className={style.logo} />
         </div>
         <div className={style.items}>
-          <a href="">Início</a>
-          <a href="">Sobre</a>
-          <div className={style.nav_item}>
-            <a href="">Login</a>
-            <div className={style.item_dropdown}>
-              <form>
-                <Input placeholderText="Email" />
-                <Input placeholderText="Senha" />
-              </form>
-              <button>Entrar</button>
-              <span>
-                Novo aqui? <a href="">Cadastre-se</a>
-              </span>
-            </div>
-          </div>
+          <Link to="/">Início</Link>
+          <Link to="/about">Sobre</Link>
+          <Link to="/signin">Entrar</Link>
+          <Link className={style.signup_link} to="/signup">
+            Criar uma conta
+          </Link>
         </div>
       </nav>
     </header>

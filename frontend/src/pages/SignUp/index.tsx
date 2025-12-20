@@ -1,6 +1,6 @@
-import style from "./SignUpPage.module.css";
-import Input from "../components/Input";
-import styleBtn from "../styles/button.module.css";
+import style from "./style.module.css";
+import Input from "../../components/Input";
+import styleBtn from "../../styles/button.module.css";
 
 const SignUpPage = () => {
   return (

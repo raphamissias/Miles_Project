@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { createRoutesStub } from "react-router-dom";
-import PageHome from "../../pages/HomePage";
-import PageAbout from "../../pages/AboutPage";
+import PageHome from "../../pages/Home";
+import PageAbout from "../../pages/About";
 
 describe("React Router DOM", () => {
   it("path '/' should return main page", () => {
