@@ -1,5 +1,7 @@
 import styles from "./style.module.css";
 import logo_solo from "../../assets/icons/logo_solo.png";
+import location from "../../assets/icons/location.png";
+import texts from "../../styles/text.module.css";
 
 const PageHome = () => {
   return (
@@ -12,7 +14,36 @@ const PageHome = () => {
           <h1>Lorem Ipsum</h1>
         </div>
       </section>
-      <section className={styles.locations}></section>
+      <section
+        id="popular_destinations"
+        className={styles.popular_destinations}
+      >
+        <div className={styles.section_description}>
+          <div className={styles.title}>
+            <h1>Destinos populares</h1>
+            <div className={styles.text_decoration}></div>
+          </div>
+          <span className={texts.subtitle}>
+            Destinos mais populares ao redor do mundo, de lugares históricos a
+            maravilhas naturais
+          </span>
+        </div>
+        <div className={styles.card_list}>
+          <div className={styles.card}>
+            <div>
+              <span>Torre Eiffel</span>
+              <div className={styles.card_location}>
+                <img src={location} alt="" />
+                <span>Paris, França</span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.card}></div>
+          <div className={styles.card}></div>
+          <div className={styles.card}></div>
+          <div className={styles.card}></div>
+        </div>
+      </section>
     </>
   );
 };
