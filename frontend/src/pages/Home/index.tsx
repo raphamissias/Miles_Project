@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import logo_solo from "../../assets/icons/logo_solo.png";
 import location from "../../assets/icons/location.png";
-import texts from "../../styles/text.module.css";
+import texts from "../../styles/text.css";
 
 const PageHome = () => {
   return (
@@ -23,7 +23,7 @@ const PageHome = () => {
             <h1>Destinos populares</h1>
             <div className={styles.text_decoration}></div>
           </div>
-          <span className={texts.subtitle}>
+          <span className="subtitle">
             Destinos mais populares ao redor do mundo, de lugares históricos a
             maravilhas naturais
           </span>
