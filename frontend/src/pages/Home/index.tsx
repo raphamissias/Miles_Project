@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import logo_solo from "../../assets/icons/logo_solo.png";
 import location from "../../assets/icons/location.png";
-import texts from "../../styles/text.css";
+import "../../styles/text.css";
 
 const PageHome = () => {
   return (
