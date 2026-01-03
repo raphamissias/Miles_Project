@@ -1,8 +1,8 @@
 import "./App.css";
-import "./styles/input.module.css";
-import "./styles/label.module.css";
-import "./styles/button.module.css";
-import "./styles/text.module.css";
+import "./styles/input.css";
+import "./styles/label.css";
+import "./styles/button.css";
+import "./styles/text.css";
 import Header from "./components/Header";
 import { RoutesMain } from "./routes/RoutesMain";
 

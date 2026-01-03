@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 import Input from "../../components/Input";
-import styleBtn from "../../styles/button.module.css";
+import "../../styles/button.css";
 
 const SignUpPage = () => {
   return (
@@ -17,7 +17,7 @@ const SignUpPage = () => {
                 <Input placeholderText="Senha"></Input>
                 <Input placeholderText="Confirme a senha"></Input>
               </form>
-              <button className={styleBtn.primary}>Cadastrar</button>
+              <button className="primary">Cadastrar</button>
             </div>
           </div>
         </section>
